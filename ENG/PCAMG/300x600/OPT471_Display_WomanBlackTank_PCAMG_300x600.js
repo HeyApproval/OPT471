@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT471_Display_WomanBlackTank_PCAMG_300x600_atlas_1", frames: [[741,364,578,68],[1321,296,578,225],[1321,0,578,294],[741,0,578,362],[741,434,282,59],[0,0,739,554]]}
+		{name:"OPT471_Display_WomanBlackTank_PCAMG_300x600_atlas_1", frames: [[741,364,578,68],[0,556,578,392],[580,556,578,392],[741,0,578,362],[741,434,282,59],[0,0,739,554]]}
 ];
 
 
@@ -165,21 +165,20 @@ if (reversed == null) { reversed = false; }
 
 	// i2
 	this.instance = new lib.CachedBmp_9();
-	this.instance.setTransform(5.5,239,0.5,0.5);
+	this.instance.setTransform(-144.5,-98,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(244));
 
 	// bkgd white
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("EgXbAu4MAAAhdvMAu3AAAMAAABdvg");
-	this.shape.setTransform(150,300);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(244));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,300,600);
+p.nominalBounds = new cjs.Rectangle(-150,-300,300,600);
 
 
 (lib.i1a = function(mode,startPosition,loop,reversed) {
@@ -195,14 +194,14 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.CachedBmp_8();
-	this.instance.setTransform(-144.5,-73.5,0.5,0.5);
+	this.instance.setTransform(-144.5,-98,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-144.5,-73.5,289,147);
+p.nominalBounds = new cjs.Rectangle(-144.5,-98,289,196);
 
 
 (lib.HEAD = function(mode,startPosition,loop,reversed) {
@@ -328,11 +327,11 @@ if (reversed == null) { reversed = false; }
 	var mask_graphics_21 = new cjs.Graphics().p("A4/PtIAA/ZMAx/AAAIAAfZg");
 	var mask_graphics_22 = new cjs.Graphics().p("A4/PtIAA/ZMAx/AAAIAAfZg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:1.9998,y:-45.9999}).wait(13).to({graphics:mask_graphics_13,x:1.9998,y:-45.9999}).wait(1).to({graphics:mask_graphics_14,x:1.9998,y:-45.5432}).wait(1).to({graphics:mask_graphics_15,x:1.9998,y:-44.1729}).wait(1).to({graphics:mask_graphics_16,x:1.9998,y:-41.8892}).wait(1).to({graphics:mask_graphics_17,x:1.9998,y:-38.6915}).wait(1).to({graphics:mask_graphics_18,x:1.9998,y:-34.8089}).wait(1).to({graphics:mask_graphics_19,x:1.9998,y:-31.6112}).wait(1).to({graphics:mask_graphics_20,x:1.9998,y:-29.327}).wait(1).to({graphics:mask_graphics_21,x:1.9998,y:-27.9567}).wait(1).to({graphics:mask_graphics_22,x:1.9998,y:-27.5}).wait(244));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:1.9998,y:-33.9998}).wait(13).to({graphics:mask_graphics_13,x:1.9998,y:-33.9998}).wait(1).to({graphics:mask_graphics_14,x:1.9998,y:-33.3455}).wait(1).to({graphics:mask_graphics_15,x:1.9998,y:-31.3826}).wait(1).to({graphics:mask_graphics_16,x:1.9998,y:-28.1111}).wait(1).to({graphics:mask_graphics_17,x:1.9998,y:-23.531}).wait(1).to({graphics:mask_graphics_18,x:1.9998,y:-17.969}).wait(1).to({graphics:mask_graphics_19,x:1.9998,y:-13.3889}).wait(1).to({graphics:mask_graphics_20,x:1.9998,y:-10.1174}).wait(1).to({graphics:mask_graphics_21,x:1.9998,y:-8.1545}).wait(1).to({graphics:mask_graphics_22,x:1.9998,y:-7.5002}).wait(244));
 
 	// HEAD i1a
 	this.instance = new lib.i1a("synched",0);
-	this.instance.setTransform(0,16);
+	this.instance.setTransform(0,19);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -409,17 +408,17 @@ if (reversed == null) { reversed = false; }
 
 	// PIC
 	this.instance_1 = new lib.PIC();
-	this.instance_1.setTransform(150.9,721.25,1.0553,1.0553,0,0,0,0.1,0.1);
+	this.instance_1.setTransform(144.95,755.75,1.4384,1.4384,0,0,0,0.1,0.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(163).to({_off:false},0).to({y:517.75},18,cjs.Ease.quadOut).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(163).to({_off:false},0).to({y:551.9},18,cjs.Ease.quadOut).wait(11));
 
 	// pill
 	this.instance_2 = new lib.Bkgd_PillRGB01ai("synched",0);
-	this.instance_2.setTransform(155,693.8,0.3011,0.3011,0,0,0,306,306);
+	this.instance_2.setTransform(150.55,718.35,0.4105,0.4105,0,0,0,306,306.1);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(155).to({_off:false},0).to({regY:305.9,y:523.65},15,cjs.Ease.quadOut).wait(22));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(155).to({_off:false},0).to({regY:305.9,y:556.4},15,cjs.Ease.quadOut).wait(22));
 
 	// CTA
 	this.instance_3 = new lib.CTA();
@@ -444,10 +443,10 @@ if (reversed == null) { reversed = false; }
 
 	// i2
 	this.instance_6 = new lib.i2();
-	this.instance_6.setTransform(150,725,1,1,0,0,0,150,125);
+	this.instance_6.setTransform(300,1025,1,1,0,0,0,150,125);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(69).to({_off:false},0).to({y:125},13,cjs.Ease.quadInOut).wait(61).to({y:-475},15,cjs.Ease.quadInOut).to({_off:true},1).wait(33));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(69).to({_off:false},0).to({y:425},13,cjs.Ease.quadInOut).wait(61).to({y:-175},15,cjs.Ease.quadInOut).to({_off:true},1).wait(33));
 
 	// i1
 	this.instance_7 = new lib.i1();
@@ -469,7 +468,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(105.8,-300,240,1500);
+p.nominalBounds = new cjs.Rectangle(29.1,-300,381.5,1500);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -479,7 +478,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT471_Display_WomanBlackTank_PCAMG_300x600_atlas_1.png?1655503093197", id:"OPT471_Display_WomanBlackTank_PCAMG_300x600_atlas_1"}
+		{src:"images/OPT471_Display_WomanBlackTank_PCAMG_300x600_atlas_1.png?1655747527053", id:"OPT471_Display_WomanBlackTank_PCAMG_300x600_atlas_1"}
 	],
 	preloads: []
 };

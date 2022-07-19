@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Approval page</title>
+	
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+<style>
+body {
+     font-family: 'Lato', 'Myriad Pro', Helvetica, Arial, 'sans-serif';
+}
+</style>
+	
+<style>
+div { 
+	display: block; 
+}
+</style>
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+
+</head>
+
+<body>
+	
+<div w3-include-html="menu-hey-story.html"></div> 
+
+<script>
+includeHTML();
+</script>
+
+
+<hr />
+
+
+<div>	
+
+	<p>PrimeCare</p><p>
+<img src="story/esp/OPT471_Story_1080x1920-primecare-ESP-01.png" width="270" height="480" alt=""/> &nbsp; &nbsp; 
+<img src="story/esp/OPT471_Story_1080x1920-primecare-ESP-02.png" width="270" height="480" alt=""/></p> 
+	<hr>
+	
+	<p>Primary Care Associates Medical Group</p><p>
+<img src="story/esp/OPT471_Story_1080x1920-pcamg-ESP-01.png" width="270" height="480" alt=""/> &nbsp; &nbsp; 
+<img src="story/esp/OPT471_Story_1080x1920-pcamg-ESP-02.png" width="270" height="480" alt=""/></p> 
+	<hr>
+	
+	<p>Empire Physicians Medical Group</p><p>
+<img src="story/esp/OPT471_Story_1080x1920-empire-ESP-01.png" width="270" height="480" alt=""/> &nbsp; &nbsp; 
+<img src="story/esp/OPT471_Story_1080x1920-empire-ESP-02.png" width="270" height="480" alt=""/></p> 
+	<hr>
+
+<p></p>
+<hr />
+</div>
+	
+</body>
+</html>

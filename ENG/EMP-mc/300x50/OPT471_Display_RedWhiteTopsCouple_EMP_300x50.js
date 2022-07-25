@@ -26,28 +26,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_37 = function() {
+(lib.CachedBmp_12 = function() {
 	this.initialize(ss["OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_36 = function() {
+(lib.CachedBmp_11 = function() {
 	this.initialize(ss["OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_35 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_34 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -82,7 +82,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_37();
+	this.instance = new lib.CachedBmp_12();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -135,7 +135,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// i2
-	this.instance = new lib.CachedBmp_36();
+	this.instance = new lib.CachedBmp_11();
 	this.instance.setTransform(5.5,-21.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(244));
@@ -165,7 +165,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.CachedBmp_35();
+	this.instance = new lib.CachedBmp_10();
 	this.instance.setTransform(-144.5,-21.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -188,7 +188,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_34();
+	this.instance = new lib.CachedBmp_9();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -366,7 +366,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1.png?1658374420943", id:"OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1"}
+		{src:"images/OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1.png?1658785699162", id:"OPT471_Display_RedWhiteTopsCouple_EMP_300x50_atlas_1"}
 	],
 	preloads: []
 };
